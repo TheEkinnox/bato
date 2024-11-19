@@ -23,10 +23,6 @@ function _init()
 
     sspr(57, 50, 6, 6, 1, 1)
 
-    poke(0x5f2d, 1)     --poke mouse positions
-    poke(0x5f2e, 1)     --poke colors to stay
-    --poke(0x5f5f,0x10)   --poke 32 colors
-
     --valeurs, taille et chance par
     --valeurs du tableau
 
@@ -193,16 +189,6 @@ function _init()
     -- Coroutine
     coroutines = {}
 
---chiffre 1 sspr(122, 6, 3, 4, x, y)
---chiffre 2 sspr(125, 6, 3, 4, x, y)
---chiffre 3 sspr(104, 10, 3, 4, x, y)
---chiffre 4 sspr(107, 10, 3, 4, x, y)
---chiffre 5 sspr(110, 10, 3, 4, x, y)
---chiffre 6 sspr(113, 10, 3, 4, x, y)
---chiffre 7 sspr(116 , 10, 3, 4, x, y)
---chiffre 8 sspr(119, 10, 3, 4, x, y)
---chiffre 9 sspr(123, 10, 3, 4, x, y)
---chiffre 0 sspr(125, 10, 3, 4, x, y)
 
 end
 
